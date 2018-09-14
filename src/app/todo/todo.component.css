@@ -1,0 +1,36 @@
+.completed{
+    text-decoration: line-through;
+    color: red;
+}
+
+.app-bg-color{
+    background-color: #1ac32726;
+    border-radius: 15px;
+}
+
+.color-red{
+    color: red;
+}
+
+.padding-top-15{
+    padding-top: 15px;
+}
+
+.task-align{
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+
+.align-left-15{
+    position: relative;
+    left: 15px;
+}
+
+.my-logo{
+    font-style: oblique;
+    font-family: monospace;
+    padding-bottom: 5px;
+    position: relative;
+    left: 224px;
+}
