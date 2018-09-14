@@ -16,8 +16,15 @@ export class TodoComponent implements OnInit {
 
   ngOnInit() { }
 
-  onBlurMethod() {
+  onBlurMethod(event) {
     if(this.task.length>0){
+      this.tasks.push({name: this.task, completed : false});
+      this.task = "";
+    }
+  }
+
+  keyDownFunction(event) {
+    if(event.keyCode == 13 && this.task.length>0){
       this.tasks.push({name: this.task, completed : false});
       this.task = "";
     }
